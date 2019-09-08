@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F23B7A0B2324BD0500A9EED0 /* ProductOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A0A2324BD0500A9EED0 /* ProductOne.sks */; };
+		F23B7A0E2324EBFE00A9EED0 /* M50X.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A0D2324EBFE00A9EED0 /* M50X.mp4 */; };
+		F23B7A102324EC0400A9EED0 /* 360.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A0F2324EC0400A9EED0 /* 360.mp4 */; };
+		F23B7A122324EC0D00A9EED0 /* G304.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A112324EC0D00A9EED0 /* G304.mp4 */; };
+		F23B7A142324F8C700A9EED0 /* M50Xinfo.sks in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A132324F8C700A9EED0 /* M50Xinfo.sks */; };
+		F23B7A172325020600A9EED0 /* related.sks in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A162325020600A9EED0 /* related.sks */; };
+		F23B7A1D2325052500A9EED0 /* avail.sks in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A1C2325052500A9EED0 /* avail.sks */; };
 		F25B45AF231A6A2B008116A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B45AE231A6A2B008116A5 /* AppDelegate.swift */; };
 		F25B45B1231A6A2B008116A5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F25B45B0231A6A2B008116A5 /* art.scnassets */; };
 		F25B45B3231A6A2B008116A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B45B2231A6A2B008116A5 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F23B7A0A2324BD0500A9EED0 /* ProductOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ProductOne.sks; sourceTree = "<group>"; };
+		F23B7A0D2324EBFE00A9EED0 /* M50X.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = M50X.mp4; sourceTree = "<group>"; };
+		F23B7A0F2324EC0400A9EED0 /* 360.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 360.mp4; sourceTree = "<group>"; };
+		F23B7A112324EC0D00A9EED0 /* G304.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = G304.mp4; sourceTree = "<group>"; };
+		F23B7A132324F8C700A9EED0 /* M50Xinfo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = M50Xinfo.sks; sourceTree = "<group>"; };
+		F23B7A162325020600A9EED0 /* related.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = related.sks; sourceTree = "<group>"; };
+		F23B7A1C2325052500A9EED0 /* avail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = avail.sks; sourceTree = "<group>"; };
 		F25B45AB231A6A2B008116A5 /* ARInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25B45AE231A6A2B008116A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F25B45B0231A6A2B008116A5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -56,6 +70,10 @@
 		F25B45AD231A6A2B008116A5 /* ARInfo */ = {
 			isa = PBXGroup;
 			children = (
+				F23B7A112324EC0D00A9EED0 /* G304.mp4 */,
+				F23B7A0F2324EC0400A9EED0 /* 360.mp4 */,
+				F23B7A0D2324EBFE00A9EED0 /* M50X.mp4 */,
+				F23B7A0A2324BD0500A9EED0 /* ProductOne.sks */,
 				F25B45AE231A6A2B008116A5 /* AppDelegate.swift */,
 				F25B45B0231A6A2B008116A5 /* art.scnassets */,
 				F25B45B2231A6A2B008116A5 /* ViewController.swift */,
@@ -63,6 +81,9 @@
 				F25B45B7231A6A2C008116A5 /* Assets.xcassets */,
 				F25B45B9231A6A2C008116A5 /* LaunchScreen.storyboard */,
 				F25B45BC231A6A2C008116A5 /* Info.plist */,
+				F23B7A132324F8C700A9EED0 /* M50Xinfo.sks */,
+				F23B7A162325020600A9EED0 /* related.sks */,
+				F23B7A1C2325052500A9EED0 /* avail.sks */,
 			);
 			path = ARInfo;
 			sourceTree = "<group>";
@@ -126,9 +147,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F25B45B1231A6A2B008116A5 /* art.scnassets in Resources */,
+				F23B7A142324F8C700A9EED0 /* M50Xinfo.sks in Resources */,
+				F23B7A1D2325052500A9EED0 /* avail.sks in Resources */,
 				F25B45BB231A6A2C008116A5 /* LaunchScreen.storyboard in Resources */,
+				F23B7A172325020600A9EED0 /* related.sks in Resources */,
+				F23B7A0B2324BD0500A9EED0 /* ProductOne.sks in Resources */,
 				F25B45B8231A6A2C008116A5 /* Assets.xcassets in Resources */,
 				F25B45B6231A6A2B008116A5 /* Main.storyboard in Resources */,
+				F23B7A122324EC0D00A9EED0 /* G304.mp4 in Resources */,
+				F23B7A0E2324EBFE00A9EED0 /* M50X.mp4 in Resources */,
+				F23B7A102324EC0400A9EED0 /* 360.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X8B2DL74F;
 				INFOPLIST_FILE = ARInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X8B2DL74F;
 				INFOPLIST_FILE = ARInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
