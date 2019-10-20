@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F232E44A235B96500054D71B /* wallet.sks in Resources */ = {isa = PBXBuildFile; fileRef = F232E449235B96500054D71B /* wallet.sks */; };
+		F232E44C235BC7BA0054D71B /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232E44B235BC7BA0054D71B /* people.swift */; };
 		F23B7A0B2324BD0500A9EED0 /* ProductOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A0A2324BD0500A9EED0 /* ProductOne.sks */; };
 		F23B7A0E2324EBFE00A9EED0 /* M50X.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A0D2324EBFE00A9EED0 /* M50X.mp4 */; };
 		F23B7A102324EC0400A9EED0 /* 360.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F23B7A0F2324EC0400A9EED0 /* 360.mp4 */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F232E446235B958E0054D71B /* mac.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac.mp4; sourceTree = "<group>"; };
+		F232E449235B96500054D71B /* wallet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = wallet.sks; sourceTree = "<group>"; };
+		F232E44B235BC7BA0054D71B /* people.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
 		F23B7A0A2324BD0500A9EED0 /* ProductOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ProductOne.sks; sourceTree = "<group>"; };
 		F23B7A0D2324EBFE00A9EED0 /* M50X.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = M50X.mp4; sourceTree = "<group>"; };
 		F23B7A0F2324EC0400A9EED0 /* 360.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 360.mp4; sourceTree = "<group>"; };
@@ -71,9 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				F23B7A112324EC0D00A9EED0 /* G304.mp4 */,
+				F232E449235B96500054D71B /* wallet.sks */,
 				F23B7A0F2324EC0400A9EED0 /* 360.mp4 */,
 				F23B7A0D2324EBFE00A9EED0 /* M50X.mp4 */,
 				F23B7A0A2324BD0500A9EED0 /* ProductOne.sks */,
+				F232E446235B958E0054D71B /* mac.mp4 */,
 				F25B45AE231A6A2B008116A5 /* AppDelegate.swift */,
 				F25B45B0231A6A2B008116A5 /* art.scnassets */,
 				F25B45B2231A6A2B008116A5 /* ViewController.swift */,
@@ -84,6 +91,7 @@
 				F23B7A132324F8C700A9EED0 /* M50Xinfo.sks */,
 				F23B7A162325020600A9EED0 /* related.sks */,
 				F23B7A1C2325052500A9EED0 /* avail.sks */,
+				F232E44B235BC7BA0054D71B /* people.swift */,
 			);
 			path = ARInfo;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 				F25B45B6231A6A2B008116A5 /* Main.storyboard in Resources */,
 				F23B7A122324EC0D00A9EED0 /* G304.mp4 in Resources */,
 				F23B7A0E2324EBFE00A9EED0 /* M50X.mp4 in Resources */,
+				F232E44A235B96500054D71B /* wallet.sks in Resources */,
 				F23B7A102324EC0400A9EED0 /* 360.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +178,7 @@
 			files = (
 				F25B45B3231A6A2B008116A5 /* ViewController.swift in Sources */,
 				F25B45AF231A6A2B008116A5 /* AppDelegate.swift in Sources */,
+				F232E44C235BC7BA0054D71B /* people.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = piyushmakwana.ARInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushmakwana.ARInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = piyushmakwana.ARInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushmakwana.ARInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
